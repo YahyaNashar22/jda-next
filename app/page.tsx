@@ -11,10 +11,11 @@ import InvestingInTheCity from "@/components/InvestingInTheCity";
 import CurrentlyBuilding from "@/components/CurrentlyBuilding";
 import StrategicSectors from "@/components/StrategicSectors";
 import LinksForInvestors from "@/components/LinksForInvestors";
+import AvailableOpportunities from "@/components/AvailableOpportunities";
 
 const Home = () => {
   return (
-    <main className="font-volkhov text-b300">
+    <main className="font-volkhov text-b300 flex flex-col">
       <Hero />
       <GeneralInformation />
       <Image
@@ -27,6 +28,7 @@ const Home = () => {
       <CurrentlyBuilding />
       <StrategicSectors />
       <LinksForInvestors />
+      <AvailableOpportunities />
       <ServiceForInvestors />
     </main>
   );

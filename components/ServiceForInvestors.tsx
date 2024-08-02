@@ -6,7 +6,7 @@ import diagonal_arrow from "../public/diagonal_arrow.png";
 
 const ServiceForInvestors = () => {
   return (
-    <section className="h-[50vh] flex items-center justify-center">
+    <section className="h-[50vh] mt-96 flex items-center justify-center">
       <div className="flex flex-col items-center justify-around ">
         <h1 className="text-[64px] font-volkhov mb-5">Service for investors</h1>
         <p className="text-[20px] font-serif mb-10">

@@ -20,7 +20,7 @@ const config: Config = {
         y75: "#e7d6ad",
         y100: "#ddc48b",
         y200: "#ceab59",
-        y300: "#c59a37",
+        y300: "#c49a37",
         y400: "#896c27",
         y500: "#785e22",
         footerLightBG: "#E4E6E1",
