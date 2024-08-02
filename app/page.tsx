@@ -10,6 +10,7 @@ import ServiceForInvestors from "@/components/ServiceForInvestors";
 import InvestingInTheCity from "@/components/InvestingInTheCity";
 import CurrentlyBuilding from "@/components/CurrentlyBuilding";
 import StrategicSectors from "@/components/StrategicSectors";
+import LinksForInvestors from "@/components/LinksForInvestors";
 
 const Home = () => {
   return (
@@ -25,6 +26,7 @@ const Home = () => {
       <InvestingInTheCity />
       <CurrentlyBuilding />
       <StrategicSectors />
+      <LinksForInvestors />
       <ServiceForInvestors />
     </main>
   );
