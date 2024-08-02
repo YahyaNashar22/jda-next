@@ -9,6 +9,7 @@ import Statistics from "@/components/Statistics";
 import ServiceForInvestors from "@/components/ServiceForInvestors";
 import InvestingInTheCity from "@/components/InvestingInTheCity";
 import CurrentlyBuilding from "@/components/CurrentlyBuilding";
+import StrategicSectors from "@/components/StrategicSectors";
 
 const Home = () => {
   return (
@@ -23,6 +24,7 @@ const Home = () => {
       <Statistics />
       <InvestingInTheCity />
       <CurrentlyBuilding />
+      <StrategicSectors />
       <ServiceForInvestors />
     </main>
   );
