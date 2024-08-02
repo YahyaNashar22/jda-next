@@ -34,6 +34,7 @@ const config: Config = {
       backgroundImage: {
         "hero-bg": "url('/hero.png')",
         "statistics-bg": "url('/statistics_bg.png')",
+        "breaker-bg": "url('/breaker.png')",
       },
     },
   },

@@ -14,7 +14,7 @@ const ServiceForInvestors = () => {
         </p>
         <Link
           href="#"
-          className="bg-b300 rounded-full flex items-center justify-around px-5 py-2 gap-2"
+          className="bg-b300 rounded-full flex items-center justify-around px-5 py-2 gap-2 hover:bg-b200 transition duration-300 ease-in-out"
         >
           <span className="text-[20px] text-white">Go to Investments Hub</span>
           <Image

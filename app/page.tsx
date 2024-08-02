@@ -7,6 +7,7 @@ import React from "react";
 import sea_scenery from "../public/sea_scenery.png";
 import Statistics from "@/components/Statistics";
 import ServiceForInvestors from "@/components/ServiceForInvestors";
+import InvestingInTheCity from "@/components/InvestingInTheCity";
 
 const Home = () => {
   return (
@@ -19,6 +20,7 @@ const Home = () => {
         className="w-screen h-[90vh]"
       />
       <Statistics />
+      <InvestingInTheCity />
       <ServiceForInvestors />
     </main>
   );
