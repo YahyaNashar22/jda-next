@@ -8,6 +8,7 @@ import sea_scenery from "../public/sea_scenery.png";
 import Statistics from "@/components/Statistics";
 import ServiceForInvestors from "@/components/ServiceForInvestors";
 import InvestingInTheCity from "@/components/InvestingInTheCity";
+import CurrentlyBuilding from "@/components/CurrentlyBuilding";
 
 const Home = () => {
   return (
@@ -21,6 +22,7 @@ const Home = () => {
       />
       <Statistics />
       <InvestingInTheCity />
+      <CurrentlyBuilding />
       <ServiceForInvestors />
     </main>
   );
