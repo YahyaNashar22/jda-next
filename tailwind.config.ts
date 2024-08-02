@@ -35,6 +35,7 @@ const config: Config = {
         "hero-bg": "url('/hero.png')",
         "statistics-bg": "url('/statistics_bg.png')",
         "breaker-bg": "url('/breaker.png')",
+        "region-bg": "url('/region.png')",
       },
     },
   },

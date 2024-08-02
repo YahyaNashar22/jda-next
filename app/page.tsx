@@ -12,6 +12,7 @@ import CurrentlyBuilding from "@/components/CurrentlyBuilding";
 import StrategicSectors from "@/components/StrategicSectors";
 import LinksForInvestors from "@/components/LinksForInvestors";
 import AvailableOpportunities from "@/components/AvailableOpportunities";
+import RegionAtAGlance from "@/components/RegionAtAGlance";
 
 const Home = () => {
   return (
@@ -29,6 +30,7 @@ const Home = () => {
       <StrategicSectors />
       <LinksForInvestors />
       <AvailableOpportunities />
+      <RegionAtAGlance />
       <ServiceForInvestors />
     </main>
   );

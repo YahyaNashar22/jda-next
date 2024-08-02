@@ -43,7 +43,7 @@ const StrategicSectors = () => {
   ];
 
   return (
-    <section className="flex flex-col w-[80vw] h-[80vh] items-start justify-between mx-auto mb-32 py-20">
+    <section className="flex flex-col w-[80vw] h-[80%] items-start justify-between mx-auto py-20">
       <p className="text-[14px] font-serif font-semibold">
         Exploring diverse investments sectors
       </p>

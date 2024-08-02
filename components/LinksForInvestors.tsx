@@ -26,9 +26,9 @@ const LinksForInvestors = () => {
   ];
 
   return (
-    <section className="flex flex-col w-[80vw] h-[80vh] items-start justify-between mx-auto pt-32">
+    <section className="flex flex-col w-[80vw] h-[80%] items-start justify-between mx-auto pt-32">
       <h1 className="text-[64px]">Links for investors</h1>
-      <ul className="flex items-start justify-between gap-5">
+      <ul className="flex items-start justify-between gap-5 mb-24">
         <li className=" cursor-pointer py-2 px-4 rounded-full text-[16px] bg-b50 hover:bg-b300 hover:text-white transition duration-300 ease-in-out">
           All
         </li>
