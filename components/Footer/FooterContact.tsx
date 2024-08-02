@@ -4,7 +4,7 @@ import saudi_tree from "../../public/saudi_tree.png";
 
 const FooterContact = () => {
   return (
-    <section className="flex justify-around w-[70%] bg-b500 text-gray-200 px-10 py-10">
+    <section className="flex justify-around w-[70%] h-full bg-b500 text-gray-200 px-10 py-10">
       <div className="flex flex-col gap-5">
         <Image
           src={saudi_tree}
@@ -26,7 +26,7 @@ const FooterContact = () => {
           Mon - Fri: 09:00 - 16:00.
         </p>
       </div>
-      <div className="flex items-end justify-end h-full">
+      <div className="flex items-end justify-end h-full mt-auto">
         <ul className="flex items-center justify-between gap-12 text-[14px]">
           <li>Privacy Policy</li>
           <li>Cookie Policy</li>

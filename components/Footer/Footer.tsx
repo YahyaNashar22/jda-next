@@ -5,7 +5,7 @@ import SocialLinks from "./SocialLinks";
 
 const Footer = () => {
   return (
-    <footer className="h-max w-full flex relative">
+    <footer className="h-full w-full flex relative">
       <FooterContact />
       <CopyRights />
       <SocialLinks />

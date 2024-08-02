@@ -9,7 +9,7 @@ import diagonal_arrow from "../public/diagonal_arrow.png";
 
 const CtaForm = () => {
   return (
-    <div className="flex flex-col items-start justify-between bg-white px-5 py-10 gap-5">
+    <div className="flex flex-col items-start justify-between bg-white px-10 py-10 gap-5">
       <h1 className="text-[24px]">Interested in investments?</h1>
       <div className="flex justify-between items-start gap-3">
         <Image
