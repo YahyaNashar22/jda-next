@@ -31,6 +31,9 @@ const config: Config = {
       letterSpacing: {
         "3p": "0.03em",
       },
+      backgroundImage: {
+        "hero-bg": "url('/hero.png')",
+      },
     },
   },
   plugins: [],
