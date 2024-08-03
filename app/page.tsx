@@ -13,6 +13,8 @@ import StrategicSectors from "@/components/StrategicSectors";
 import LinksForInvestors from "@/components/LinksForInvestors";
 import AvailableOpportunities from "@/components/AvailableOpportunities";
 import RegionAtAGlance from "@/components/RegionAtAGlance";
+import Brochures from "@/components/Brochures";
+import MostAsked from "@/components/MostAsked";
 
 const Home = () => {
   return (
@@ -31,6 +33,8 @@ const Home = () => {
       <LinksForInvestors />
       <AvailableOpportunities />
       <RegionAtAGlance />
+      <Brochures />
+      <MostAsked />
       <ServiceForInvestors />
     </main>
   );
