@@ -15,6 +15,7 @@ import AvailableOpportunities from "@/components/AvailableOpportunities";
 import RegionAtAGlance from "@/components/RegionAtAGlance";
 import Brochures from "@/components/Brochures";
 import MostAsked from "@/components/MostAsked";
+import Support from "@/components/Support";
 
 const Home = () => {
   return (
@@ -34,6 +35,7 @@ const Home = () => {
       <AvailableOpportunities />
       <RegionAtAGlance />
       <Brochures />
+      <Support />
       <MostAsked />
       <ServiceForInvestors />
     </main>
