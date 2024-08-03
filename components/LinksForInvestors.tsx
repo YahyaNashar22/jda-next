@@ -26,7 +26,7 @@ const LinksForInvestors = () => {
   ];
 
   return (
-    <section className="flex flex-col w-full h-[80%] items-start justify-between px-28 py-36">
+    <section className="flex flex-col w-full h-full items-start justify-between px-28 py-36">
       <h1 className="text-[64px]">Links for investors</h1>
       <ul className="flex items-start justify-between gap-5 mb-24">
         <li className=" cursor-pointer py-2 px-4 rounded-full text-[16px] bg-b50 hover:bg-b300 hover:text-white transition duration-300 ease-in-out">
@@ -42,12 +42,12 @@ const LinksForInvestors = () => {
           Investor journeys
         </li>
       </ul>
-      <div className="flex flex-wrap items-start justify-between gap-10 mx-auto">
+      <div className="flex flex-wrap items-start justify-around mx-auto w-full">
         {data.map((item, index) => {
           return (
             <div
               key={index}
-              className="flex flex-col w-96 p-5 items-start justify-center shadow-lg gap-5"
+              className="flex flex-col p-5 items-start justify-center shadow-lg gap-5"
             >
               <div className="h-32 flex items-start justify-center">
                 {item.img && (

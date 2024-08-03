@@ -11,8 +11,8 @@ import saudi_flag_logo from "../../public/saudi_flag_logo.png";
 const SocialLinks = () => {
   return (
     <section className="flex flex-col gap-5 w-[50%] max-h-full rounded-bl-xl absolute -top-3 right-0 bg-footerLightBG px-20 z-10">
-      <div className="flex space-between items-center pb-5 pt-16 w-full text-b500 ">
-        <p className="w-1/3 text-[16px]">
+      <div className="flex flex-wrap space-between items-center pb-5 pt-16 w-full text-b500 ">
+        <p className="xl:-1/3 w-full text-[16px]">
           The <span className="font-bold">Jeddah Development Authority</span>{" "}
           tasks and powers are designed to achieve its objective lorem ipsum
           dolor amet.

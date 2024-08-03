@@ -34,7 +34,7 @@ const SmallCaroussel = () => {
   };
 
   return (
-    <div className="flex items-center justify-between w-[45vw]">
+    <div className="flex flex-wrap gap-10 items-center justify-between ">
       <div
         className={`h-[430px] w-[308px] relative text-white transition-opacity duration-300 ${
           fade ? "opacity-100" : "opacity-0"

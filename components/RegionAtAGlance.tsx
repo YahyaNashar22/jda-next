@@ -5,7 +5,7 @@ import diamonds from "../public/diamonds.png";
 
 const RegionAtAGlance = () => {
   return (
-    <section className="flex flex-col w-[100%] h-[80%] items-center gap-52 bg-region-bg bg-cover text-white px-28 py-36">
+    <section className="flex flex-col w-full h-full items-center gap-52 bg-region-bg bg-cover text-white px-28 py-36">
       <div className="flex w-full items-center justify-around gap-5">
         <Image
           src={diamonds}
@@ -26,18 +26,18 @@ const RegionAtAGlance = () => {
         </div>
       </div>
 
-      <div className="flex items-center justify-around w-full gap-5">
-        <div className="flex flex-col items-start justify-center pt-16 border-t-2 border-white w-1/3">
+      <div className="flex flex-wrap items-center justify-around w-full gap-5">
+        <div className="flex flex-col items-start justify-center pt-16 border-t-2 border-white h-[300px] w-1/4">
           <p className="text-[64px]">56.5 million</p>
           <p className="text-[16px]">
             Tourists visiting the city of Jeddah annually
           </p>
         </div>
-        <div className="flex flex-col items-start justify-center pt-16 border-t-2 border-white w-1/3">
+        <div className="flex flex-col items-start justify-center pt-16 border-t-2 border-white h-[300px] w-1/4">
           <p className="text-[64px]">778.2 km²</p>
           <p className="text-[16px]">Total area of urban land</p>
         </div>
-        <div className="flex flex-col items-start justify-center pt-16 border-t-2 border-white w-1/3">
+        <div className="flex flex-col items-start justify-center pt-16 border-t-2 border-white h-[300px] w-1/4">
           <p className="text-[64px]">56.5 million</p>
           <p className="text-[16px]">Current population status for 2023</p>
         </div>

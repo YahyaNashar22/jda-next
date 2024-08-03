@@ -5,7 +5,7 @@ import building2 from "../public/building2.png";
 
 const Support = () => {
   return (
-    <section className="flex flex-col w-full h-[80%] items-start justify-between px-28 py-36">
+    <section className="flex flex-col w-full h-full items-start justify-between px-28 py-36">
       <p className="text-[14px] font-serif font-semibold">business support</p>
       <h1 className="text-[64px] leading-[74px] mb-24">
         This is how we
@@ -13,7 +13,7 @@ const Support = () => {
         support business
       </h1>
 
-      <div className="flex flex-wrap items-center justify-between mx-auto">
+      <div className="flex flex-wrap gap-10 items-center justify-between mx-auto">
         <div className="flex flex-col items-center justify-between h-[340px] w-[304px] px-5 py-3 border-r-2">
           <Image
             src={building2}

@@ -43,12 +43,12 @@ const StrategicSectors = () => {
   ];
 
   return (
-    <section className="flex flex-col w-full h-[80%] items-start justify-between px-28 py-36">
+    <section className="flex flex-col w-full h-full items-start justify-between px-28 py-36">
       <p className="text-[14px] font-serif font-semibold">
         Exploring diverse investments sectors
       </p>
       <h1 className="text-[64px] mb-20">Strategic sectors</h1>
-      <div className="flex items-center justify-between gap-10 self-center ">
+      <div className="flex flex-wrap items-center justify-between gap-10 self-center ">
         {data.map((current, index) => {
           return (
             <div

@@ -68,8 +68,8 @@ const AvailableOpportunities = () => {
       <div className="flex flex-wrap items-center justify-between gap-10">
         {data.map((item, index) => {
           return (
-            <div className="flex flex-col items-start justify-between shadow-lg">
-              <div className="h-72 w-[420px] flex items-start justify-center">
+            <div key={index} className="flex flex-col items-start justify-between shadow-lg">
+              <div className="h-72 w-80 xl:w-[420px] flex items-start justify-center">
                 {item.img && (
                   <Image
                     src={item.img}
