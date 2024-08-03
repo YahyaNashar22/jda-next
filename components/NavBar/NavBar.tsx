@@ -63,7 +63,7 @@ const NavBar = () => {
   return (
     <nav
       id="navbar"
-      className={`flex flex-col w-full bg-${navBg} h-[160px] fixed top-0 transition-transform duration-300 transform`}
+      className={`flex flex-col w-full bg-${navBg} h-[160px] fixed top-0 transition-transform duration-300 transform z-50`}
     >
       <UpperNav />
       <LowerNav />

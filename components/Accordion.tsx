@@ -17,7 +17,7 @@ export default function AccordionUsage() {
           boxShadow: "none",
           color: "white",
           fontSize: 20,
-          width: "800px",
+          width: "36rem",
           borderBottom: "1px solid gray",
         }}
       >
@@ -39,7 +39,7 @@ export default function AccordionUsage() {
           boxShadow: "none",
           color: "white",
           fontSize: 20,
-          width: "800px",
+          width: "36rem",
           borderBottom: "1px solid gray",
         }}
       >
@@ -61,7 +61,7 @@ export default function AccordionUsage() {
           boxShadow: "none",
           color: "white",
           fontSize: 20,
-          width: "800px",
+          width: "36rem",
           borderBottom: "1px solid gray",
         }}
       >
@@ -83,7 +83,7 @@ export default function AccordionUsage() {
           boxShadow: "none",
           color: "white",
           fontSize: 20,
-          width: "800px",
+          width: "36rem",
           borderBottom: "1px solid gray",
         }}
       >

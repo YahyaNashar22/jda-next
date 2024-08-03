@@ -3,8 +3,8 @@ import SmallCaroussel from "./SmallCaroussel";
 
 const Brochures = () => {
   return (
-    <section className="w-full h-[80%] flex flex-col items-center justify-around py-36 gap-16">
-      <div className="flex items-center justify-around">
+    <section className="w-full h-full flex flex-col items-start justify-between px-28 py-36">
+      <div className="flex items-center justify-around pb-36">
         <div className="flex flex-col items-start justify-center">
           <h1 className="text-[60px] font-volkhov">
             Brochures for <br /> investors
@@ -15,7 +15,7 @@ const Brochures = () => {
         </div>
         <SmallCaroussel />
       </div>
-      <div className="bg-breaker-bg bg-contain bg-no-repeat h-24 w-[80%] mt-auto" />
+      <div className="bg-breaker-bg bg-contain bg-no-repeat h-24 w-full mt-auto" />
     </section>
   );
 };

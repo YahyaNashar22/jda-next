@@ -19,14 +19,10 @@ import Support from "@/components/Support";
 
 const Home = () => {
   return (
-    <main className="font-volkhov text-b300 flex flex-col">
+    <main className="font-volkhov text-b300 flex flex-col flex-wrap">
       <Hero />
       <GeneralInformation />
-      <Image
-        src={sea_scenery}
-        alt="sea scenery"
-        className="w-[100%] h-[90%]"
-      />
+      <Image src={sea_scenery} alt="sea scenery" className="w-[100%] h-[90%]" />
       <Statistics />
       <InvestingInTheCity />
       <CurrentlyBuilding />

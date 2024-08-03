@@ -8,7 +8,7 @@ import building from "../public/building.png";
 const Statistics = () => {
   return (
     <section className="h-[80%] w-full bg-b500 bg-statistics-bg flex items-center justify-between py-32">
-      <div className="flex flex-col items-center justify-between w-[80%] gap-y-32 ">
+      <div className="flex flex-col items-center justify-between w-full gap-y-32 ">
         <StatisticsPackage
           packageIco={people}
           packageText="56.5 million"
@@ -21,7 +21,7 @@ const Statistics = () => {
         />
       </div>
 
-      <div className="flex flex-col items-center justify-between w-[80%] gap-y-32">
+      <div className="flex flex-col items-center justify-between w-full gap-y-32">
         <StatisticsPackage
           packageIco={brief_case}
           packageText="1500+"
@@ -34,7 +34,7 @@ const Statistics = () => {
         />
       </div>
 
-      <div className="flex flex-col items-center justify-between w-[80%] gap-y-32 ">
+      <div className="flex flex-col items-center justify-between w-full gap-y-32 ">
         <StatisticsPackage
           packageIco={building}
           packageText="56.5 million"

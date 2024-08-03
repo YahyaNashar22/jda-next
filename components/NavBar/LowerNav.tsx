@@ -7,10 +7,10 @@ import diagonal_arrow from "../../public/diagonal_arrow.png";
 const LowerNav = () => {
   return (
     <div className="flex h-[120px] w-full bg-transparent items-center px-10 justify-between">
-      <div className="w-max">
+      <div>
         <Image src={nav_logo} alt="website logo" height={77} width={283} />
       </div>
-      <ul className="flex w-max items-center text-[16px] text-white font-volkhov font-normal gap-14">
+      <ul className="flex items-center text-[16px] text-white font-volkhov font-normal gap-14">
         <li className="cursor-pointer hover:text-y200 transition duration 300 ease-in-out">
           Governorate
         </li>

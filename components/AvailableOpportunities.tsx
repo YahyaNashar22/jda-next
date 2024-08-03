@@ -44,7 +44,7 @@ const AvailableOpportunities = () => {
   ];
 
   return (
-    <section className="flex flex-col w-[80%] h-[80%] items-start gap-5 mb-96 mx-auto pt-32">
+    <section className="flex flex-col w-full h-[80%] items-start justify-between px-28 py-36 gap-5">
       <p className="text-[14px] font-semibold font-serif">
         investment opportunities
       </p>

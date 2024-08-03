@@ -8,8 +8,8 @@ import cloudy from "../../public/cloudy.png";
 const UpperNav = () => {
   return (
     <>
-      <ul className="flex gap-5 justify-end items-center bg-transparent px-10 py-5 mt-5 text-white font-inter font-normal h-[40px]">
-        <li className="flex items-center justify-between w-14">
+      <ul className="flex gap-5 justify-end items-center bg-transparent px-10 py-5 mt-5 text-white font-inter font-normal h-[40px] w-full">
+        <li className="flex items-center justify-between">
           <Image src={cloudy} alt="cloudy" height={25} width={25} />
           <span className="text-[14px]">24&deg;C</span>
         </li>
