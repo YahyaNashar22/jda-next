@@ -8,7 +8,7 @@ import arrow_diagonal from "../public/arrow_diagonal.png";
 
 const MostAsked = () => {
   return (
-    <section className="flex flex-col w-screen h-[80%] items-center gap-52 bg-region-bg bg-cover text-white px-28 py-36">
+    <section className="flex flex-col w-[100%] h-[80%] items-center gap-52 bg-region-bg bg-cover text-white px-28 py-36">
       <div className="flex items-start justify-around w-full gap-5">
         <div className="flex flex-col gap-5 items-start justify-between">
           <p className="text-[14px] font-serif font-semibold text-gray-400">

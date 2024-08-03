@@ -4,7 +4,10 @@ import HeroNav from "./HeroNav";
 
 const Hero = () => {
   return (
-    <main className="h-screen pt-44 bg-hero-bg bg-contain flex flex-col justify-between items-stretch">
+    <main
+      id="hero_section"
+      className="h-screen pt-44 bg-hero-bg bg-contain flex flex-col justify-between items-stretch"
+    >
       <div className="flex justify-around items-center">
         <div className="flex flex-col items-start justify-between text-white font-volkhov">
           <p className="text-[67px]">Invest</p>

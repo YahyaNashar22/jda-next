@@ -25,7 +25,7 @@ const Home = () => {
       <Image
         src={sea_scenery}
         alt="sea scenery"
-        className="w-screen h-[90vh]"
+        className="w-[100%] h-[90%]"
       />
       <Statistics />
       <InvestingInTheCity />

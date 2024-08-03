@@ -5,7 +5,7 @@ import diamonds from "../public/diamonds.png";
 
 const RegionAtAGlance = () => {
   return (
-    <section className="flex flex-col w-screen h-[80%] items-center gap-52 bg-region-bg bg-cover text-white px-28 py-36">
+    <section className="flex flex-col w-[100%] h-[80%] items-center gap-52 bg-region-bg bg-cover text-white px-28 py-36">
       <div className="flex w-full items-center justify-around gap-5">
         <Image
           src={diamonds}

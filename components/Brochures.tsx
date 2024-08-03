@@ -15,7 +15,7 @@ const Brochures = () => {
         </div>
         <SmallCaroussel />
       </div>
-      <div className="bg-breaker-bg bg-contain bg-no-repeat h-24 w-[80vw] mt-auto" />
+      <div className="bg-breaker-bg bg-contain bg-no-repeat h-24 w-[80%] mt-auto" />
     </section>
   );
 };

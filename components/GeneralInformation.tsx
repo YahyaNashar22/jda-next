@@ -2,7 +2,7 @@ import React from "react";
 
 const GeneralInformation = () => {
   return (
-    <section className="mx-auto flex items-center justify-between h-[50vh] w-[80vw]">
+    <section className="mx-auto flex items-center justify-between h-[50vh] w-[80%]">
       <aside className="flex flex-col items-start justify-start w-2/5">
         <p className="text-[12px] font-serif font-semibold">Invest in Jeddah</p>
         <h1 className="font-volkhov text-[64px]">
